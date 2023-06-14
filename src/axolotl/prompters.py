@@ -22,7 +22,7 @@ class AlpacaPrompter:
     Base class for alpaca prompters
     """
 
-    system_prompt = "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n"
+    system_prompt = "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request in the following format. t(<json_key>: <json_value>)\n\n"
     system_no_input_prompt = "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n"
     prompt_style: Optional[PromptStyle] = None
 
